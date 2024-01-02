@@ -1,0 +1,41 @@
+li {
+  height: 25px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.left-part {
+  display: flex;
+}
+.right-part {
+  display: flex;
+}
+.image {
+  height: 85%;
+  width: 25px;
+  margin: 5px;
+}
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  margin: 2px;
+  color: white;
+  font-size: 15px;
+}
+.genre {
+  margin: 2px;
+  color: #3b82f6;
+  font-size: 15px;
+}
+.icon {
+  height: 15px;
+  margin: 5px;
+}
+.time {
+  color: white;
+  font-size: 15px;
+}
